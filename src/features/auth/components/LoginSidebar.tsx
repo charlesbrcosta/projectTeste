@@ -1,4 +1,5 @@
 import { BarChart3, ShieldCheck, Users } from 'lucide-react';
+import logoBranca from '../../../assets/logoBranca.svg'
 
 export const LoginSidebar: React.FC = () => { 
     const infoItems = [
@@ -11,7 +12,7 @@ export const LoginSidebar: React.FC = () => {
         <aside className='hidden lg:flex flex-col justify-between w-2/5 p-12 bg-blue-950 text-white'>
             <div>
                 <div className='flex items-center gap-3 mb-16'>
-                    <ShieldCheck size={40} className='text-blue-400'/>
+                    <img src={logoBranca} alt='Logo' className='w-18 h-18'/>
                     <h1 className='text-3xl font-bold'>Portal de Dados de Governança</h1>
                 </div>
 
