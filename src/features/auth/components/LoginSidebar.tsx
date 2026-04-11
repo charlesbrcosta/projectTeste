@@ -10,9 +10,9 @@ export const LoginSidebar: React.FC = () => {
     return(
         <aside className='hidden lg:flex flex-col justify-between w-2/5 p-12 bg-blue-950 text-white'>
             <div>
-                <div className='flex items-center gap-3 mb-10'>
-                    <ShieldCheck size={38}/>
-                    <h1 className='text-2xl'>Portal de Dados de Governança</h1>
+                <div className='flex items-center gap-3 mb-16'>
+                    <ShieldCheck size={40} className='text-blue-400'/>
+                    <h1 className='text-3xl font-bold'>Portal de Dados de Governança</h1>
                 </div>
 
                 <nav className='space-y-10'>
