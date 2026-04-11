@@ -12,12 +12,12 @@ export const LoginSidebar: React.FC = () => {
     return(
         <aside className='hidden lg:flex flex-col justify-between w-2/5 p-12 bg-blue-950 text-white overflow-hidden'>
             <div className='relative z-10'>
-                <div className='flex items-center gap-3 mb-16'>
+                <div className='flex items-center gap-3 mb-14'>
                     <img src={ logoBranca } alt='Logo' className='w-18 h-18'/>
                     <h1 className='text-3xl font-bold'>Portal de Dados de Governança</h1>
                 </div>
 
-                <nav className='space-y-10'>
+                <nav className='space-y-8'>
                     { infoItems.map((item, id) => (
                         <div key={ id } className='flex gap-4 items-start'>       
                             <div className='p-3 bg-white/10 rounded-lg'>
@@ -30,8 +30,8 @@ export const LoginSidebar: React.FC = () => {
                         </div>
                     )) }
                 </nav>
-                <div className='relative mt-32 flex items-center'>
-                    <div className='absolute -ml-12 left-0 top-2/3 -translate-y-1/2 h-30 w-[100%] bg-white/10 rounded-r-full'></div>
+                <div className='relative mt-12 flex items-center'>
+                    <div className='absolute -ml-12 left-0 top-2/3 -translate-y-1/2 h-30 w-[86%] bg-white/10 rounded-r-full'></div>
                     <img 
                         src={ imageMonitor } 
                         alt='Imagem do monitor' 
