@@ -30,6 +30,7 @@ export const LoginSidebar: React.FC = () => {
                         </div>
                     )) }
                 </nav>
+            </div>
                 <div className='relative mt-12 flex items-center'>
                     <div className='absolute -ml-12 left-0 top-2/3 -translate-y-1/2 h-30 w-[86%] bg-white/10 rounded-r-full'></div>
                     <img 
@@ -38,7 +39,6 @@ export const LoginSidebar: React.FC = () => {
                         className='relative z-20 w-full max-w-lg'
                     />
                 </div>
-            </div>
             <footer className='-mx-12 -mb-12'>
             <div className='-mx-12 mb-4 border-t border-white/5'></div>
                 <p className='text-[1rem] bg-white/10 py-4 px-6 text-center leading-relaxed'>
